@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-    const {data} = await useFetch('api/characters');
+    const {data} = await useFetch('/api/characters');
 </script>
 
 <style scoped>
